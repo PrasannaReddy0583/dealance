@@ -1,0 +1,10 @@
+DROP TRIGGER IF EXISTS update_reports_updated_at ON reports;
+DROP TRIGGER IF EXISTS update_comments_updated_at ON comments;
+DROP TRIGGER IF EXISTS update_posts_updated_at ON posts;
+DROP TABLE IF EXISTS reports;
+DROP TABLE IF EXISTS hashtags;
+DROP TABLE IF EXISTS saved_posts;
+DROP TABLE IF EXISTS reactions;
+DROP TABLE IF EXISTS comments;
+DROP TABLE IF EXISTS post_media;
+DROP TABLE IF EXISTS posts;

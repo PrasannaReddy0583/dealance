@@ -1,0 +1,15 @@
+go 1.23.0
+
+use (
+	./services/admin
+	./services/auth
+	./services/chat
+	./services/content
+	./services/deal
+	./services/media
+	./services/notify
+	./services/startup
+	./services/user
+	./services/wallet
+	./shared
+)
